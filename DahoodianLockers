@@ -130,14 +130,6 @@ Tab:AddButton({
 Name = <string> - The name of the section.
 ]]
 
-Tab:AddButton({
-	Name = "no delay",
-	Callback = function()
-      	   local nobulletdelay = game:GetService("CorePackages").Packages
-nobulletdelay:Destroy()
-  	end    
-})
-
 --[[
 Name = <string> - The name of the section.
 ]]

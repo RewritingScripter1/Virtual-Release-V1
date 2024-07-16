@@ -120,9 +120,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Duke Macro Toggle",
+	Name = "Shiftlock",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gutsdukeshadow/Dukeshadow/main/marcotoggle%20protect.txt"))();
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Baseplate-Universal-Script-Permanent-Shift-Lock-6924"))()
   	end    
 })
 

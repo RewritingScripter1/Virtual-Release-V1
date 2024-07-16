@@ -170,16 +170,7 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Alex lock",
-	Callback = function()
-      		   loadstring(game:HttpGet("https://raw.githubusercontent.com/RewritingScripter1/Lock-rewritten/main/Fuck this"))();
- 	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+	
 
 Tab:AddButton({
 	Name = "Anti lock",
